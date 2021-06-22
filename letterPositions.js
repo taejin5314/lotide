@@ -1,4 +1,4 @@
-const letterPositions = function (sentence) {
+const letterPositions = function(sentence) {
   const results = {};
   for (let i = 0; i < sentence.length; i++) {
     if (results[sentence[i]]) results[sentence[i]].push(i);
@@ -17,7 +17,7 @@ const eqArrays = (actual, expected) => {
   return false;
 };
 
-const assertArraysEqual = function (actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   else console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
 };

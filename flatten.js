@@ -13,7 +13,7 @@
 //   else console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
 // };
 
-const flatten = function (arr) {
+const flatten = function(arr) {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
     if (Array.isArray(arr[i])) {
