@@ -15,7 +15,7 @@ const assertArraysEqual = function(actual, expected) {
 
 const without = (source, itemsToRemove) => {
   let result = [];
-  if (eqArrays(source, itemsToRemove)) console.log([]);
+  if (eqArrays(source, itemsToRemove)) return [];
   else {
     for (let i = 0; i < source.length; i++) {
       let include = false;
@@ -26,7 +26,7 @@ const without = (source, itemsToRemove) => {
       }
       if (!include) result.push(source[i]);
     }
-    console.log(result);
+    return result;
   }
 };
 
