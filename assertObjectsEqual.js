@@ -8,7 +8,7 @@ const eqArrays = (actual, expected) => {
   return false;
 };
 
-const eqObjects = function (object1, object2) {
+const eqObjects = function(object1, object2) {
   const ob1Length = Object.keys(object1).length,
     ob2Length = Object.keys(object2).length;
   let count = 0;
@@ -29,7 +29,7 @@ const eqObjects = function (object1, object2) {
 };
 
 // FUNCTION IMPLEMENTATION
-const assertObjectsEqual = function (actual, expected) {
+const assertObjectsEqual = function(actual, expected) {
   // Implement me!
   const inspect = require('util').inspect;
   if (eqObjects(actual, expected)) console.log(`✅✅✅ Assertion Passed: ${inspect(actual)} === ${inspect(expected)}`);

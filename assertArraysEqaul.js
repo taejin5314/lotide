@@ -8,18 +8,18 @@ const eqArrays = (actual, expected) => {
   return false;
 };
 
-const assertArraysEqual = function (actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   else console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
 };
 
-const map = function (array, callback) {
+const map = function(array, callback) {
   const results = [];
   for (let item of array) {
-    results.push(callback(item))
+    results.push(callback(item));
   }
   return results;
-}
+};
 
 // assertArraysEqual('Lighthouse Labs', 'Bootcamp');
 // assertArraysEqual(1, 1);
