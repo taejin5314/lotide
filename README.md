@@ -35,3 +35,5 @@ The following functions are currently implemented:
 * `countOnly(object)`: Returns a count of the key of an object
 * `letterPositions(string)`: Returns an object that contains each count of letters
 * `findKeyByValue(object, string)`: Returns key by using value
+* `eqArrays(array, array)`: Returns whether both arrays are same or not
+* `eqObjects(object, object)`: Returns whether both objects are same or not
