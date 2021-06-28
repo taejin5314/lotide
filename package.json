@@ -1,7 +1,7 @@
 {
   "name": "@taejin5314/lotide",
   "version": "1.0.0",
-  "description": "Lighthouse Labs Week1 project by Taejin Jung",
+  "description": "mini lodash",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/taejin5314/lotide.git"
   },
-  "author": "Taejin Jung <taejin5314@gmail.com>(https://github.com/taejin5314)",
+  "author": "Taejin Jung <taejin5314@gmail.com> (https://github.com/taejin5314)",
   "license" : "(ISC OR GPL-3.0)",
   "bugs": {
     "url": "https://github.com/taejin5314/lotide/issues"
