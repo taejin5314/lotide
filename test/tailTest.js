@@ -1,9 +1,8 @@
-const assertEqual = require('../assertEqual');
+const expect = require('chai').expect;
 const tail = require('../tail');
 
-const result = tail(['Hello', 'Lighthouse', 'Labs']);
-assertEqual(JSON.stringify(result), JSON.stringify(['Lighthouse', 'Labs']));
-
-const words = ['Yo Yo', 'Lighthouse', 'Labs'];
-tail(words); // no need to capture the return value since we are not checking it
-assertEqual(words.length, 3);
+describe("#tail", () => {
+  it("returns ['Lighthouse', 'Labs'] for ['Hello', 'Lighthouse', 'Labs']", () => {
+    expect(tail(['Hello', 'Lighthouse', 'Labs'])).to.eql(['Lighthouse', 'Labs']);
+  });
+});
