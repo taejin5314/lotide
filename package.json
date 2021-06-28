@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@taejin5314/lotide",
   "version": "1.0.0",
-  "description": "Lighthouse Labs Week1 project by [Taejin Jung](https://github.com/taejin5314)",
+  "description": "Lighthouse Labs Week1 project by Taejin Jung",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/taejin5314/lotide.git"
   },
-  "author": "",
+  "author": "Taejin Jung",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/taejin5314/lotide/issues"
