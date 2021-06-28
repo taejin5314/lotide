@@ -31,4 +31,5 @@ The following functions are currently implemented:
 * `head(array)`: Returns a head value of an array (index of 0)
 * `tail(array)`: Returns tail values of an array (index after 0)
 * `middle(array)`: Returns middle values of an array
-
+* `flatten(array)`: Returns each element of an array (Can be applied to a nested array)
+* `countOnly(object)`: Returns a count of the key of an object
