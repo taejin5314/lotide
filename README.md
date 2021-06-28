@@ -34,3 +34,4 @@ The following functions are currently implemented:
 * `flatten(array)`: Returns each element of an array (Can be applied to a nested array)
 * `countOnly(object)`: Returns a count of the key of an object
 * `letterPositions(string)`: Returns an object that contains each count of letters
+* `findKeyByValue(object, string)`: Returns key by using value
